@@ -32,7 +32,7 @@ LEDMatrix::LEDMatrix(byte data_out, byte clk_out, byte wrclk_out, byte cs_out):
   
   // Clear the display
   clear(); 
-  commit();
+  render();
 }
 
 
@@ -138,7 +138,7 @@ void LEDMatrix::writeToBuffer(int address, int chip, byte localBuffer) {
     buffer[address][chip] = localBuffer | CELL_MODIFIED_MASK;
 }
 
-void LEDMatrix::commit() {
+void LEDMatrix::render() {
   int address;
   byte localBuffer;
   int chip, cell, color;

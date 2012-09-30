@@ -5,7 +5,7 @@
  * The library is very simple to use:
  * * initialize the screen by creating a new LEDMatrix object (parameters are the numbers of the pins you connected the screen to)
  * * use member functions plot and clear to change the local buffer as you want
- * * use member function commit to send the changes to the screen
+ * * use member function render to send the changes to the screen
  */
 
 #ifndef LED_MATRIX_H
@@ -92,10 +92,10 @@ public:
 	void clear();
 
 	/**
-	 * Commit the current local buffer to the screen.
+	 * Render the current local buffer to the screen.
          * Only parts of the buffer that have been changed are sent to the screen
          */
-	void commit();
+	void render();
 
 protected:
 

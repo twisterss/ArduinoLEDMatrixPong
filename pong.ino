@@ -105,7 +105,7 @@ void gameOver(byte player) {
   for (int a=from; a!=to; a+=plus) {
     for (int b=0;b<HEIGHT;b++)
       matrix->plot(a,b,RED);
-    matrix->commit();
+    matrix->render();
     delay(100);
   }
   delay(3000);
@@ -186,7 +186,7 @@ void loop()
   // Read the user controls
   readControls();
   // Display changes on the screen
-  matrix->commit();
+  matrix->render();
   // Wait
   delay(PONG_STEP_DELAY);
   stepIndex = (stepIndex + 1) % moveDuration;
