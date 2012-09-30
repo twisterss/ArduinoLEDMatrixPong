@@ -1,5 +1,5 @@
 /**
- * 16x32 Sure Electronics bi-color LED matrix library.
+ * 32x16 Sure Electronics bi-color LED matrix library.
  * Written in september 2012 by Tristan Groleat.
  * Based on the code written by dataTeam in August 2011 for pong.
  * The library is very simple to use:

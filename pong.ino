@@ -1,5 +1,5 @@
 /* Code adapted from the code written by dataTeam in August 2011 */
-/* Pong game for LED matrix 16x32 by sure electronics */
+/* Pong game for LED matrix 32x16 by sure electronics */
 
 #include "led_matrix.h"
 

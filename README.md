@@ -1,10 +1,10 @@
-# Sure Electronics 16x32 bi-color LED matrix Arduino library
+# Sure Electronics 32x16 bi-color LED matrix Arduino library
 
 ## The display library
 
 ### Principle
 
-This library makes very easy to control the Sure Electronics 16x32 bi-color LED matrix using an Arduino.
+This library makes very easy to control the Sure Electronics 32x16 bi-color LED matrix using an Arduino.
 
 It works using a local buffer: draw all you want in the local buffer using the clear() and draw(x, y, color) functions. Once you are done, send only the parts which have changed to the screen using the function render().
 
