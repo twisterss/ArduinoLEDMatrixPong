@@ -6,9 +6,9 @@
 
 This library makes very easy to control the Sure Electronics 32x16 bi-color LED matrix using an Arduino.
 
-It works using a local buffer: draw all you want in the local buffer using the clear() and draw(x, y, color) functions. Once you are done, send only the parts which have changed to the screen using the function render().
+It works using a local buffer: draw all you want in the local buffer using the clear() and draw(x, y, color) functions. Once you are done, send only the parts which have changed to the screen using the render() function.
 
-A much more powerful, generic and complicated library to manage the HT1632C chip [is available here](https://github.com/gauravmm/HT1632-for-Arduino).
+A much more powerful, generic and complicated library to manage the LED matrix [is available here](http://code.google.com/p/ht1632c/) (with text, shapes and bitmaps support). An even more powerful one for HT1632C chips [is here](https://github.com/gauravmm/HT1632-for-Arduino).
 
 ### Installation
 
