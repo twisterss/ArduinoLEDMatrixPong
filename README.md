@@ -15,13 +15,14 @@ The library is made of only 2 files:
  * led_matrix.cpp contains the actual code.
 
 Add both files to your sketch directory and add this line on top of your sketch:
+```C
 #include "led_matrix.h"
-
+```
 Then you can use the LEDMatrix class provided by the library. Read the .h file for more information.
 
 ## The pong example
 
-The pong example is based on the one found here: http://scuola.arduino.cc/en/content/controlling-sure-electronics-3216-led-matrix-arduino-uno . The principles for writing the display library were also found on this page.
+The pong example is based on the one found [here on Arduino Education](http://scuola.arduino.cc/en/content/controlling-sure-electronics-3216-led-matrix-arduino-uno). The principles for writing the display library were also found on this page.
 
 It is a bit improved:
 * It obviously uses the library available here.
@@ -30,4 +31,4 @@ It is a bit improved:
 * It is easy to set the game speed, bars size and number of points in the code.
 * The Game Over "wave" changes direction depending on the winner.
 
-The circuit to build is almost the same as on the version here: http://scuola.arduino.cc/en/content/controlling-sure-electronics-3216-led-matrix-arduino-uno . You just need to add one more potentiometer (on A2 by default) to set the ball speed.
+The circuit to build is almost the same as on [the version here](http://scuola.arduino.cc/en/content/controlling-sure-electronics-3216-led-matrix-arduino-uno). You just need to add one more potentiometer (on A2 by default) to set the ball speed.
